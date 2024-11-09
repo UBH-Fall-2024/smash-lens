@@ -2,7 +2,12 @@ I made this todo and general planning file so I dont crash out:
 
 TODOS:
 
-sameer: making the basic frontend for start page
+sameer: 
+
+
+
+Make frontend Html / css for landing page really nice
+
 
 maybe: figure out git structure right for all 4 to work properly 
 
