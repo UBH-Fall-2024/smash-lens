@@ -1,6 +1,9 @@
 I made this todo and general planning file so I dont crash out:
 
 TODOS:
+
+get a logo 
+
 figure out git structure right for all 4 to work properly 
 
 

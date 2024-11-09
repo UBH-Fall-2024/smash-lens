@@ -7,7 +7,8 @@ function createWindow() {
         height: 600,
         webPreferences: {
             nodeIntegration: true
-        }
+        },
+        icon: 'public/smashlens-logo-final.png'
     });
     win.loadFile('src/index.html');
 
