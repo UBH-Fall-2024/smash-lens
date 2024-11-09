@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, Menu } = require('electron');
 
 // loads index.html into new BrowserWIndow Instance
 function createWindow() {
@@ -9,7 +9,10 @@ function createWindow() {
             nodeIntegration: true
         }
     });
-    win.loadFile('index.html'); 
+    win.loadFile('src/index.html');
+
+    // Remove electron's top menu
+    Menu.setApplicationMenu(null);
 }
 
 //Opens window
