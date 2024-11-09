@@ -1,4 +1,11 @@
 const { app, BrowserWindow, Menu } = require('electron');
+const path = require('path'); // handling paths
+const { SlippiGame } = require("@slippi/slippi-js");
+
+//auto reload ability for changes made, makes frontend much easier 
+require('electron-reload')(__dirname, {
+    electron: path.join(__dirname, 'node_modules', '.bin', 'electron')
+});
 
 // loads index.html into new BrowserWIndow Instance
 function createWindow() {
@@ -8,7 +15,8 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true
         },
-        icon: 'public/smashlens-logo-final.png'
+        icon: path.join(__dirname, 'public', 'smashlens-logo-final.png') // Use path.join for icon path
+
     });
     win.loadFile('src/index.html');
 

@@ -2,8 +2,8 @@ I made this todo and general planning file so I dont crash out:
 
 TODOS:
 
-get a logo 
+sameer: making the basic frontend for start page
 
-figure out git structure right for all 4 to work properly 
+maybe: figure out git structure right for all 4 to work properly 
 
 
