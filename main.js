@@ -16,8 +16,7 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true
         },
-        icon: path.join(__dirname, 'public', 'smashlens-logo-final.png') // Use path.join for icon path
-
+        icon: path.join(__dirname, 'src/images', 'smashlens-logo-final.png'),  // Set the icon path here
     });
     win.loadFile('src/index.html');
 
