@@ -13,5 +13,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@slippi/slippi-js": "^6.7.0",
+    "ekectron": "^0.0.1-security"
+  }
 }
