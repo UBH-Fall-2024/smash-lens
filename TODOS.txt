@@ -2,6 +2,8 @@ I made this todo and general planning file so I dont crash out:
 
 TODOS:
 
+fix slogan at startup to say fix info for training 
+
 sameer: 
 
 
