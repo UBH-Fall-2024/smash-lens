@@ -9,11 +9,47 @@
 </head>
 
 <body>
-    <div class="Input Button">
-    <h1>Input your .slp file</h1>
-    <input type="file" class="file-input" accept=".slp">
+
+    <div class="container">
+        <div class="navBar">
+          <img src="images/smash-lens-logo.png" class="logo" />
+          <div class ="name">
+            <h1>
+                Smash Lens
+              </h1>
+          </div>
+          
+          <nav>
+            <ul>
+              <li><a href="how-to.html" target="">How Smash Lens Works</a></li>
+              <li><a href="about-us.html" target="">About Us</a></li>
+              
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+<div class = "convert-text">
+  <h2>
+    Convert SLP File To Player Data
+  </h2>
+</div>
+
+<div class="input-section">
+  <label for="input-file" id="drop-area">
+        <input type="file" accept=".slp" id="input-file" hidden>
+
+        <div id="file-view">
+            <img src="images/SLP.png" >
+            <p>Drag and drop or click here<br>to upload SLP file</p>
+            <span>Upload any SLP files from desktop</span>
+        </div>
+    </label>
+</div>
     
-    </div>
+      
+<script src="load-page.js"></script>
 
 </body>
 
