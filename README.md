@@ -4,6 +4,8 @@ NOTES FOR TEAM:
 need to install npm
 Slippi: npm install @slippi/slippi-js
 Install Electron: npm install electron electron-reload --save-dev
+install chart package: npm install chart.js
+
 
 do npm start
 Crtl + C
