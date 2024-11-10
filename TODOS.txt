@@ -5,8 +5,19 @@ TODOS:
 sameer: 
 
 
+Ryan: plan out backend 
+Sameer: plan out UI for move list 
+Sadik: Make frontend Html / css for landing page really nice
 
-Make frontend Html / css for landing page really nice
+
+todo later:
+
+make frontend for moves list page
+
+make powerpoint slide to present for project 
+make about us page 
+make how it works page 
+
 
 
 maybe: figure out git structure right for all 4 to work properly 
