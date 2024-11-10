@@ -1,0 +1,18 @@
+I made this todo and general planning file so I dont crash out:
+
+TODOS:
+
+sameer: 
+
+
+make frontend for moves list page
+
+make powerpoint slide to present for project 
+make about us page 
+make how it works page 
+
+
+
+maybe: figure out git structure right for all 4 to work properly 
+
+
